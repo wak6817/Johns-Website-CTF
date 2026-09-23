@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John's Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-creds="am9objp0aW55d2Vi">
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+          <div class="brand">john / home</div>
+          <div class="site-nav-links">
+            <a href="#about">about</a>
+            <a href="#notes">notes</a>
+            <a href="#log-in">log in</a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="hero" id="about">
+          <p class="eyebrow">personal website</p>
+          <h1>John's little corner of the internet.</h1>
+          <p class="lede">
+            I keep a few things here: small projects, half-finished ideas, and
+            the occasional secret that only shows up if you look closely enough.
+          </p>
+        </section>
+
+        <section class="panel">
+          <h2>About this site</h2>
+          <p>
+            This page was built by hand, mostly for fun, and a little bit
+            because I like making tiny web things that feel personal and honest.
+          </p>
+        </section>
+
+        <section class="terminal" id="log-in">
+          <div class="login-grid">
+            <input id="username" placeholder="Username" aria-label="Username" />
+            <input
+              id="password"
+              type="password"
+              placeholder="Password"
+              aria-label="Password"
+            />
+          </div>
+
+          <button onclick="login()">Log in</button>
+          <p id="output" class="output"></p>
+        </section>
+
+        <section class="note" id="notes">
+          <h2>Notes</h2>
+          <ul>
+            <li>This is a local CTF.</li>
+            <li>Everything you need is somewhere in this website.</li>
+            <li>No external systems are involved.</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        © 2026 John — still learning, still building.
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

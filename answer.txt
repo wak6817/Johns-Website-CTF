@@ -1,0 +1,13 @@
+Answer: username = john, password = tinyweb
+
+How to do it:
+1. Open the page in the browser and inspect the HTML.
+2. Look at the page body or the script for clues about where the credentials are stored.
+3. The site hides the real login values in an encoded attribute on the page body.
+4. Decode the value from base64 to reveal the credentials.
+5. Use:
+   - Username: john
+   - Password: tinyweb
+
+Decoded value:
+"john:tinyweb"
