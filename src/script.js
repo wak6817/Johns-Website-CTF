@@ -15,7 +15,8 @@ function login() {
   const [storedUsername, storedPassword] = decodedCreds.split(":");
 
   if (usernameInput === storedUsername && passwordInput === storedPassword) {
-    output.textContent = "Access granted. The site is yours.";
+    output.textContent =
+      "You completed the challenge! The flag is: john{tiny_web_things_are_fun}";
     output.className = "output success";
     return;
   }

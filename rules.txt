@@ -1,0 +1,1 @@
+You can do everything but not look in script.js and checkanswer.sh source code!
