@@ -9,7 +9,9 @@ function login() {
     return;
   }
 
-  const encodedCreds = document.body.dataset.creds || "";
+  const body = document.body;
+  const encodedCreds =
+    body.dataset.creds || body.getAttribute("sha256-creds") || "";
   const decodedCreds = atob(encodedCreds);
   const [storedUsername, storedPassword] = decodedCreds.split(":");
 

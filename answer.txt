@@ -1,4 +1,4 @@
-Answer: username = john, password = tinyweb
+Answer: username = john, password = 6094
 
 How to do it:
 1. Open the page in the browser and inspect the HTML.
@@ -7,7 +7,7 @@ How to do it:
 4. Decode the value from base64 to reveal the credentials.
 5. Use:
    - Username: john
-   - Password: tinyweb
+   - Password: 6094
 
 Decoded value:
-"john:tinyweb"
+"john:6094"
